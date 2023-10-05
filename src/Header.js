@@ -1,6 +1,5 @@
 import "./main.css";
 import React from "react";
-import tglogo from "/public/img/tglogo.png";
 
 function Header() {
   return (
@@ -9,7 +8,7 @@ function Header() {
         <p className="usercard">username</p>
         <a href="https://t.me/zipperwear" className="btnurl">
           <div className="button-telegram-channel">
-            <img src={tglogo} className="tglogo" />
+            <img src="/img/tglogo.png" className="tglogo" />
             <p className="widget-text">zipperwear</p>
             <p className="widget-text-low"> наш телеграм канал</p>
           </div>

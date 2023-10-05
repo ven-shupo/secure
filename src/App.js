@@ -1,6 +1,5 @@
 import "./styles.css";
 import { Route, Routes } from "react-router-dom";
-import { BackButton } from "@twa-dev/sdk/react";
 import Products from "./Products";
 import ProductDetail from "./ProductDetail";
 import Header from "./Header";
@@ -29,7 +28,6 @@ function App() {
           path="/products/:productId"
           element={
             <>
-              <BackButton />
               <ProductDetail />
             </>
           }
